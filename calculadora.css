@@ -1,0 +1,48 @@
+*{ /*colocar em todos os elementos*/
+    margin: 0;
+    padding: 0;
+}
+.fundo{
+    background: linear-gradient(50deg, white, gray);
+    height: 100vh;
+    font-family: arial;
+}
+.calculadora{
+    position: absolute;
+    color: white;
+    background-color: rgb(21, 21, 63);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /*CENTRALIZAR CLASSE*/
+    border-radius: 15px; /*ARRENDODAR BORDAS*/
+    padding: 15px; /*LARGURA*/
+}
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Arial;
+    background-color: black;
+    color: white;
+    margin: 2px;
+}
+.button:hover{
+    background-color: blue;
+}
+.sum {
+    height: 109px;
+}
+
+#result{
+    background-color: white;
+    width: 203px;
+    margin: 3px;
+    color: black;
+    padding: 8px;
+    text-align: right;
+    height: 20px;
+}
+#read_calc{
+    text-align: center;
+    padding: 10px;
+}
